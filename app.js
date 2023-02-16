@@ -297,6 +297,211 @@
 
 
 
+// document.write("<h3>Sub\n T.marks\n Obtain\n Percentage</h3>")
+// document.write("<br>")
+// var subject1 = prompt("enter subject no 1")
+// document.write(subject1)
+// document.write("\n")
+// document.write(100)
+// var obtn1 = +prompt("enter your obtained marks of subject no 1")
+// document.write("\n")
+// document.write(obtn1)
+// document.write("\n")
+// document.write(obtn1*100/100)
+// document.write("%")
+// document.write("<br>")
+// document.write("<br>")
+// var subject2 = prompt("enter subject no 2")
+// document.write(subject2)
+// document.write("\n")
+// document.write(100)
+// var obtn2 = +prompt("enter your obtained marks of subject no 2")
+// document.write("\n")
+// document.write(obtn2)
+// document.write("\n")
+// document.write(obtn2*100/100)
+// document.write("%")
+// document.write("<br>")
+// document.write("<br>")
+// var subject3 = prompt("enter subject no 3")
+// document.write(subject3)
+// document.write("\n")
+// document.write(100)
+// var obtn3 = +prompt("enter your obtained marks of subject no 3")
+// document.write("\n")
+// document.write(obtn3)
+// document.write("\n")
+// document.write(obtn3*100/100)
+// document.write("%")
+// document.write("<br>")
+// document.write("<br>")
+// document.write("Total")
+// document.write("\n")
+// document.write(300)
+// document.write("\n")
+// var per = (obtn1+obtn2+obtn3)
+// document.write(per)
+// document.write("\n")
+// document.write(per*100/300)
+// document.write("%")
+// document.write("<br>")
+
+// CHP # 9-11
+
+// var cityName = prompt("Enter Your City Name");
+// if(cityName === "karachi"){document.write("welcome to city of light")}
+// else if(cityName === "lahore"){document.write("welcome to city of garden")}
+// else if(cityName === "peshawar"){document.write("welcome to city of khyber pakhtunkhwa")}
+// else if(cityName === "quetta"){document.write("welcome to city of fruit garden")}
+// else{document.write("write correct city name")}
+
+// var gender = prompt("Enter Your Gender");
+// if(gender === "male"){document.write("Good Morning Sir")}
+// else if(gender === "female"){document.write("Good Morning Ma'am")}
+
+
+// var signalColor = prompt("Write signal color");
+// if(signalColor === "red"){document.write("<h1>Message:</h1>Must Stop")}
+// else if(signalColor === "yellow"){document.write("<h1>Message:</h1>Ready to Move")}
+// else if(signalColor === "green"){document.write("<h1>Message:</h1>Move Now")}
+
+
+// var fuel = prompt("remaining your fuel in ltr");
+// if(fuel <= 0.25){document.write("Please refill the fuel in your car")}
+
+
+// var a = 4;
+// if (++a === 5){ alert("given condition for variable a is true");}
+
+// var b = 82;
+// if (b++ === 83){ alert("given condition for variable b is true");} 
+
+// var c = 12; 
+// if (c++ === 13){ alert("condition 1 is true"); } 
+// if (c === 13){ alert("condition 2 is true"); } 
+// if (++c < 14){ alert("condition 3 is true"); } 
+// if(c === 14){ alert("condition 4 is true"); }
+
+// var materialCost = 20000; 
+// var laborCost = 2000; 
+// var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost){ alert("The cost equals"); } 
+
+// if (true){alert("True");}
+// if (false){alert("False");} 
+ 
+
+// if("car" < "cat"){ alert("car is smaller than cat"); }
+
+
+// var totalMarks1 = +prompt("total marks of english")
+// var obtainMarks1 = +prompt("obtained marks of english")
+
+// var totalMarks2 = +prompt("total marks of urdu")
+// var obtainMarks2 = +prompt("obtained marks of urdu")
+
+// var totalMarks3 = +prompt("total marks of math")
+// var obtainMarks3 = +prompt("obtained marks of math")
+
+// var totalMarks =(totalMarks1+totalMarks2+totalMarks3)
+// var obtainMarks =(obtainMarks1+obtainMarks2+obtainMarks3)
+// var percent = (obtainMarks*100/totalMarks)
+
+// document.write("<h1>Marks Sheet</h1>")
+// document.write("<br>")
+// document.write("<br>")
+// document.write("Total marks : ")
+// document.write(totalMarks)
+// document.write("<br>")
+// document.write("Marks obtained : ")
+// document.write(obtainMarks)
+// document.write("<br>")
+// document.write("Percentage : ")
+// document.write(percent)
+// document.write("%")
+// document.write("<br>")
+// if(percent >= 80){document.write("Grade : A-one <br> Remarks : Excellent")}
+// // document.write("<br>")
+// if(percent >= 70 && percent <= 79){document.write("Grade : A <br> Remarks : Good")}
+// document.write("<br>")
+// if(percent >= 60 && percent <= 69){document.write("Grade : B <br> Remarks : You need to improve")}
+// if(percent >= 0 && percent <= 59){document.write("Grade : Fail <br> Remarks : Sorry")}
+ 
+
+
+// var secret = 5;
+// var guess = +prompt("guess the secret number")
+// if(guess === secret){document.write("Bingo! Correct answar")}
+// else if(guess === secret+1){document.write("Close enough to the correct answer")}
+// else{document.write("you are wrong")}
+
+// var num = +prompt("your number")
+// if(num % 3 == 0){document.write("divisible by 3")}
+
+
+// var num = +prompt("your number")
+// if(num % 2 == 0){document.write("even number")}
+// else{document.write("odd number")}
+
+
+// var temp = +prompt("Enter temperature")
+// if(temp >= 40){document.write("It is too hot outside")}
+
+// if(temp >= 30 && temp <= 39){document.write("The weather today is normal")}
+// if(temp >= 20 && temp <= 29){document.write("Today's weather is cool")}
+// if(temp >= 10 && temp <= 19){document.write("OMG! Today's weather is sO cool")}
+
+// var firstNumber = +prompt("Enter first number")
+// var secondNumber = +prompt("Enter second number")
+// var oper = prompt("Operation +,-,*,/,%")
+// if(oper === "+"){document.write(firstNumber + secondNumber)}
+// else if(oper === "-"){document.write(firstNumber - secondNumber)}
+// else if(oper === "*"){document.write(firstNumber * secondNumber)}
+// else if(oper === "/"){document.write(firstNumber / secondNumber)}
+// else if(oper === "%"){document.write(firstNumber * secondNumber/100 + "%")}
+
+// CHP # 11-13
+
+// var num1 = +prompt("enter number1")
+// var num2 = +prompt("enter number2")
+// if(num1 === num2){document.write("number1 equal to number2")}
+// else if(num1 >= num2){document.write("number1 greater than number2")}
+// else if(num1 <= num2){document.write("number2 greater than number1")}
+
+
+// var num = +prompt("enter number1")
+// if(num < 0){document.write("negative number")}
+// else if(num > 0){document.write("positive number")}
+// else if(num === 0){document.write("zero")}
+
+// var password = 2902939;
+// var ps = prompt("enter your passward")
+// if(ps == password){document.write("<h1>Correct! The password you entered matches the original password</h1>")}
+// else{document.write("<h1>Incorrect password")}
+
+// var hours = 13;
+// if(hours <= 18){alert("Good day")}
+// else{alert("Good evening")}
+
+// var time = +prompt("enter time (e.g 1700)")
+// if(time >= 0000 && time < 1200){document.write("<h1>Good Morning")}
+// else if(time >= 1200 && time < 1700){document.write("<h1>Good afternoon")}
+// else if(time >= 1700 && time < 2100){document.write("<h1>Good evening")}
+// else if(time >= 2100 && time < 2359){document.write("<h1>Good night")}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
